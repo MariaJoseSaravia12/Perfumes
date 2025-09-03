@@ -1,10 +1,10 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 import './index.css';
 import Footer from './componentes/footer/Footer.jsx';
 import Header from './componentes/header/Header.jsx';
 import Menu from './componentes/menu/Menu.jsx';
-import Intro from './componentes/Intro/Intro.jsx';
+import Intro from './componentes/intro/Intro.jsx';
 import Productos from './componentes/lista/Productos.jsx';
 import Oferta from './componentes/oferta/Oferta.jsx';
 import DetalleProducto from './componentes/producto/DetalleProducto.jsx';
@@ -39,9 +39,9 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AppContent />
-    </Router>
+    </BrowserRouter>
   );
 }
 
