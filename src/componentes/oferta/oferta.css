@@ -1,0 +1,14 @@
+.oferta {
+  margin-top: 4rem;
+  text-align: center;
+  background-color: var(--color-secundario);
+  color: var(--color-joya);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(10, 10, 10, 0.4);
+}
+.oferta h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-primario);
+}

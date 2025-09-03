@@ -1,0 +1,41 @@
+/* index.css - estilos globales mínimos y funcionales */
+
+:root {
+  /* Base */
+  --color-fondo: #F5F5F5;        /* Fondo general claro */
+  --color-primario: #1A1A1A;     /* Texto principal / títulos oscuros */
+  --color-secundario: #FFFFFF;   /* Fondo de tarjetas y secciones */
+  
+  /* Texto */
+  --color-texto: #333333;        /* Texto normal */
+  --color-texto-claro: #ffffff;  /* Para usar sobre fondos oscuros */
+  
+  /* Dorado */
+  --color-joya: #D4AF37;         /* Dorado principal */
+  --color-joya-hover: #B08B2D;   /* Dorado más oscuro (hover, activo) */
+
+  /* Extras */
+  --color-borde: #E0E0E0;        /* Líneas y separadores */
+  --color-shadow: rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-primario);
+  line-height: 1.5;
+}
+
+  
+
+
+
+
+

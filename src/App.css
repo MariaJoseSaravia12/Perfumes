@@ -1,0 +1,12 @@
+/* App.css limpio */
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 2rem;
+  background-color: transparent;
+  
+}

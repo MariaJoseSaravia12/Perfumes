@@ -1,0 +1,35 @@
+.nav {
+  background-color: var(--color-primario);
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 4px 12px rgba(249, 248, 248, 0.4);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;  
+ 
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--color-texto-claro);
+  font-weight: bold;
+   display: inline-block; 
+  transition: transform 0.2s ease;
+}
+
+.nav a:hover {
+  color: #d1a060;   
+  text-decoration: underline;
+}
+.nav a:active {
+  transform: scale(0.95);
+  text-decoration: none;  
+}

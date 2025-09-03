@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  background-color: var(--color-primario);
+
+  padding: 3rem 2rem;
+  
+  box-shadow: 0 4px 12px rgba(249, 248, 248, 0.4);
+
+}
+.header img {
+  height: 5rem;           
+  width: auto;           
+  object-fit: contain;    
+  margin-right: 1rem;  
+  box-shadow: 0 4px 12px rgba(253, 251, 251, 0.4);   
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-container img {
+  height: 10rem;
+  width: auto;
+  object-fit: contain;
+}
+
